@@ -4,7 +4,7 @@
 
   export let showModal = false;
   const dispatcher = createEventDispatcher();
-  let name, pic = 'https://source.unsplash.com/random', desc = '';
+  let name, pic = 'https://picsum.photos/600/400', desc = '';
 
 </script>
 <Modal bind:open={showModal}>
